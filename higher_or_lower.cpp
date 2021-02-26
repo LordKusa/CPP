@@ -4,7 +4,7 @@
 using namespace std;
 
 void stop(){
-    cout << "Presion enter para continuar";
+    cout << "Presion enter para continuar" << endl;
     getchar();
 }
 
@@ -14,9 +14,16 @@ int randomizar(){
 }
 
 int main (){
-    int n;
+    int n, m;
 
     n = randomizar();
- 
+
+    cout << "Ingrese un número entre 0 y 10";
+    cin >> m;  
+    while ((m < 0) || (m > 10)){
+        cout << "Ingrese un número entre 0 y 10";
+        cin >> m;
+    }
+
     return 0;
 }
