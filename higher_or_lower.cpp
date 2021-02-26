@@ -8,12 +8,15 @@ void stop(){
     getchar();
 }
 
+int randomizar(){
+    srand(time(0));
+    return (rand() % 10);
+}
+
 int main (){
     int n;
 
-    srand(time(0));
-    n = rand() % 10;
-    cout << n << endl;
-    stop();
+    n = randomizar();
+ 
     return 0;
 }
