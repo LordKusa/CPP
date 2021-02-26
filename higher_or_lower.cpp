@@ -13,7 +13,7 @@ int main (){
 
     srand(time(0));
     n = rand() % 10;
-    cout << n;
-    stop;
+    cout << n << endl;
+    stop();
     return 0;
 }
