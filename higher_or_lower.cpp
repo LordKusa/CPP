@@ -3,11 +3,6 @@
 #include <ctime>
 using namespace std;
 
-void stop(){
-    cout << "Presion enter para continuar" << endl;
-    getchar();
-}
-
 int randomizar(){
     srand(time(0));
     return (rand() % 10);
@@ -18,12 +13,24 @@ int main (){
 
     n = randomizar();
 
-    cout << "Ingrese un número entre 0 y 10";
+    cout << "Ingrese un numero entre 0 y 10" << endl;
     cin >> m;  
     while ((m < 0) || (m > 10)){
-        cout << "Ingrese un número entre 0 y 10";
+        cout << "Ingrese un numero entre 0 y 10" << endl;
         cin >> m;
     }
 
+    while (m!=n){
+        if (m < n){
+            cout << "El numero ingresado es menor" << endl;
+            
+        }else{
+            cout << "El numero ingresado es mayor" << endl;
+        }
+        cin >> m;
+    }
+
+    system("pause");
+    
     return 0;
 }
