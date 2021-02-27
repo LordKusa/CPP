@@ -23,7 +23,6 @@ int main (){
     while (m!=n){
         if (m < n){
             cout << "El numero ingresado es menor" << endl;
-            
         }else{
             cout << "El numero ingresado es mayor" << endl;
         }
