@@ -30,6 +30,7 @@ int main (){
         cin >> m;
     }
 
+    cout << "El numero correcto era " << n << "!" << endl;
     system("pause");
     
     return 0;
