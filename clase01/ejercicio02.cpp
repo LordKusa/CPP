@@ -3,6 +3,8 @@ using namespace std;
 
 int main (){
 
+    //Calcular el área de un rombo conociendo sus diagonales.
+
     float diagonal1, diagonal2, area;
     cout << "Ingrese la primer diagonal del rombo" << endl;
     cin >> diagonal1;
