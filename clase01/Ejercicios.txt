@@ -1,0 +1,29 @@
+1. Algoritmo que calcula el área y el perímetro de un rectangulo.
+
+2. Calcular el área de un rombo conociendo sus diagonales.
+
+3. Calcular la velocidad promedio de un auto sabiendo la distancia recorrida y el tiempo que tardo en recorrerla
+
+4. Escribir un algoritmo que determine la suma de las cifras de un nĂşmero entero positivo de 4 cifras
+
+5. Dados dos números almacenados en las direcciones de memoria A y B, escribir un algoritmo que intercambie dichos valores
+
+6. Diseñe un algoritmo para ingresarle la longitud de los catetos de un triangulo rectangulo y muestre la longitud de la hipotenusa
+
+7. Escribir un algoritmo que permita ingresar la longitud de un lado de un triangulo equilatero y muestre su perimetro y su area
+
+8. Diseñe un algoritmo para sumar dos marcas de tiempo dadas en dias, horas, minutos y segundos
+
+9. Se solicita un prestamo por S pesos durante M meses a una tasa de interes mensual I. Al final de los M meses la cantidad adeudada es S*(1+I)^M. Escribir un algoritmo al cual se le den los valores de S, M, e I, e informe la suma adeudada.
+
+10. Escribir un algoritmo que permita ingresar un valor para X y los coeficientes A, B y C del polinomio P(X)=AX2+BX+C; e informe el valor del polinomio
+
+11. Escribir un algoritmo que permita ingresar una medida en metros, y que convierta e informe dicha medida expresada en centí­metros, pulgadas, pies, y millas.
+
+12. Escribir un algoritmo para darle el radio de cualquier circulo, e imprima el diametro, la circunferencia, y la superficie.
+
+13. Escribir un algoritmo que permita ingresar las nota de cuatro examenes y muestre la nota promedio
+
+14. Una empresa de ventas de Alemania paga a sus empleados un salario fijo de 5000 marcos, mas una comisión de 200 marcos por cada venta realizada, mas el 8% del valor de esas ventas. Preparar un algoritmo para que calcule el sueldo correspondiente en un mes determiado, ingrsando la cantidad de ventas que realizaron y el valor total de las mismas.
+
+15. Un millonario excéntrico tenía tres hijos: Carlos, José y Marta. Al morir dejó el siguiente legado: A Jose le dejo 4/3 de lo que le dejo a Carlos. A Carlos le dejo 1/3 de su fortuna. A Marta le dejo la mitad de lo que le dejo a Jose. Preparar un algoritmo para darle la suma a repartir e imprima cuanto le tocó a cada uno.
