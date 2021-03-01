@@ -31,7 +31,6 @@ int main (){
     }
 
     cout << "El numero correcto era " << n << "!" << endl;
-    system("pause");
     
     return 0;
 }
